@@ -1,0 +1,8 @@
+px hr device me alg alg hote h..to its not a good practise to write ht = 300px etc..also it will not make our website responsive
+
+so it is advicible to use % eg:- ht = 100% it will adopt every screen and also be responsive
+
+vh vp are other methods
+
+color comb0 :- a-f , 0-9
+rgba red green blue alpha(transparency)

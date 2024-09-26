@@ -1,0 +1,50 @@
+Basic:-
+we can use following ways to target the elements:_
+i)by directly using their tag name
+ii)by using id
+iii)by using class
+
+Advanced:-
+i)On the basis of attributes
+    input[type="password"]{
+        bgc = "red";
+    }
+
+ii)Puesdo class
+h1:hover{
+    color 
+    font
+    font wt
+}
+
+iii)Puedo element
+
+ol::before{
+
+}
+
+3*p tags
+
+iv) 
+4-para
+
+p:nth child(2n){
+
+}
+
+v)
+div (id="abc") ke andr para
+alg se para
+
+select div ke andr wla para
+
+#abc p{
+
+}
+
+
+vi)abc ke andr ek p uske andr ek or div uske andr bhi ek para
+
+#abc>p{
+    
+}

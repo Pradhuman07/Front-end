@@ -1,0 +1,24 @@
+blobmixer zentry
+
+create a html code for a landing page of the website using tailwind css, make sure it looks good,use black and white color for theme
+
+Q.Why index.html?
+Ans. 
+1.Default behavior of web servers: Most web servers are configured to look for index.html as the default landing page.
+2.Usability: When you type something like example.com, the browser will directly load the index.html file without needing to specify example.com/index.html. This keeps the URL simple and user-friendly.
+
+Q.(2+2) = 4 how in html?
+
+div
+#div
+.div    All are different
+
+rgba (red,green,blue,alpha)
+rgb bcoz our screen is made up of only red green blue
+alpha means transparency
+
+#000 ==> black color (r=b=g=0 ==> kuch nhi ==> black color)
+#fff ==> white color (r=b=g=at full ==>all mix==> white color,as according to newtons theory of vibgyor)
+
+remember color means the color of the text if any present in div etc
+in order to check things like position,size etc, give background color to the div 

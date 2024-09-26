@@ -1,0 +1,225 @@
+INTRODUCTION
+
+Installing vscode 
+
+
+HTML
+
+Basic HTML Elements (headings, paragraphs, links, images, lists, form, divs)
+  Semantic Elements (header, footer, article, section, nav, aside, main)
+
+Multimedia in HTML5
+  Audio Element
+  Video Element
+  Embedding Multimedia (iframe, embed, object)
+
+HTML5 Forms and Validation
+  New Input Types (email, date, range, etc.)
+  Form Validation
+  Placeholder Attribute
+
+
+CSS
+
+CSS Syntax and Selectors
+  Types of CSS (inline, internal, external)
+
+Selectors and Combinators
+  Basic Selectors
+  Advanced Selectors (attribute, pseudo-class, pseudo-element)
+  
+CSS Properties and Values
+  Text Properties (font-family, font-size, font-weight, text-align)
+  Color Properties (color, background-color, opacity)
+  CSS Box Model
+  Box Properties (margin, padding, border)
+  Display and Visibility
+
+Layout Techniques
+  Positioning (static, relative, absolute, fixed, sticky)
+  Flexbox
+  Grid Layout
+
+CSS Transitions 
+  Transitions (properties, duration, timing functions, delays)
+
+CSS Transforms
+  2D Transforms (translate, rotate, scale, skew)
+
+CSS Advanced Features
+  CSS Variables
+  CSS Filters (blur, brightness, contrast)
+  CSS Gradients (linear, radial)
+  CSS Shadows (box-shadow, text-shadow)
+  after and before
+  
+
+CSS frameworks - TailwindCSS
+
+CSS Animation  
+  Keyframe Animations
+  Animation Properties
+
+Responsive Web Design
+  Media Queries
+
+
+CSS Projects
+
+1. Project 1 (Normal CSS) - https://cdn.dribbble.com/users/1774675/screenshots/14397179/media/e973fc08c0693b16b29cca0e1fe9bd75.png?resize=800x600&vertical=center
+
+2. Project 2 (Normal CSS) - https://oliv-template.webflow.io/
+
+3. Project 3 (Tailwind CSS) - https://cdn.dribbble.com/users/1994279/screenshots/15876094/media/6839149e14d9cc196ac9aa82ed1899e4.png?resize=1600x1200&vertical=center
+
+4. Project 4 (Tailwind CSS) - https://cdn.land-book.com/website/57343/85e6875da31e2f0b-www-feedspring-co.webp   https://www.feedspring.co/
+
+
+
+JavaScript
+
+Setting Up the Environment
+  How to Link a JavaScript File
+  Running JavaScript in the Browser Console
+
+Basic Output
+  console.log(), console.warn(), console.error()
+  alert(), prompt(), confirm()
+
+JavaScript Syntax
+  Statements and Semicolons
+  Comments
+
+Basic Data Types
+  Numbers, Strings, Booleans, Null, Undefined, Symbols
+
+Variables
+  Declaration and Initialization
+  var, let, const
+
+Operators
+  Arithmetic Operators
+  Comparison Operators
+  Logical Operators
+  Assignment Operators
+  Conditional (Ternary) Operator
+
+Conditional Statements
+  if, else if, else
+  switch-case
+
+Loops
+  for, while, do-while
+  Iterating Over Arrays and Objects
+
+Break and Continue
+  Usage in Loops
+
+Function Declaration and Expression
+  Defining and Invoking Functions
+  Function Hoisting
+
+Arrow Functions
+  Syntax and Usage
+
+Parameters and Arguments
+  Default Parameters
+  Rest Parameters
+
+Scope
+  Local and Global Scope
+  Block Scope with let and const
+
+Closures
+  Explanation and Use Cases
+
+Objects and Arrays
+  Object Literals
+  Creating and Accessing Properties
+  Nested Objects
+
+Arrays
+  Creating and Accessing Elements
+  Multidimensional Arrays
+
+Array Methods
+  push(), pop(), shift(), unshift()
+  forEach(), map(), filter(), reduce()
+  find(), findIndex(), includes(), some(), every()
+
+Object Methods
+  Defining Methods in Objects
+  this Keyword
+
+JSON (JavaScript Object Notation)
+  Parsing JSON
+  Stringifying Objects
+
+
+Advanced JavaScript Concepts
+
+  Higher-Order Functions
+  Definition and Examples
+  Callbacks
+  Synchronous and Asynchronous Callbacks
+  Promises
+  Creating and Using Promises
+  .then(), .catch(), .finally()
+  Async/Await
+
+Writing Asynchronous Code
+
+Error Handling
+
+Fetch API
+
+Making HTTP Requests
+  Handling Responses
+
+ES6 Features
+  let and const
+  Block Scope and Constants
+  Arrow Functions
+  Lexical this
+  Template Literals
+  Embedding Expressions
+  Destructuring
+  Objects and Arrays
+  Default Parameters
+  Function Parameters
+
+Modern JavaScript Features
+  Optional Chaining
+  Safe Property Access
+  Nullish Coalescing
+  Handling Null and Undefined
+
+
+DOM Manipulation
+
+  Understanding the Structure of the DOM
+  Selecting Elements
+  getElementById(), getElementsByClassName(), getElementsByTagName()
+  querySelector(), querySelectorAll()
+
+Modifying Elements
+  innerHTML, textContent
+  Setting and Getting Attributes
+
+Modifying Styles
+
+Event Handling
+addEventListener(), removeEventListener()
+
+DOM Projects
+
+1. Bulb feature (or something similar)
+2. Navigation bar with hamburger menu
+3. random color generator and uses with Array
+4. setTimeout and setInterval
+5. Light mode, dark mode with setAttribute
+6. a project with classlist and appendChild
+7. multiple events like dblClick, mouseenter, mousemove, mouseleave, keyboard Events
+8. Event Bubbling with bubble game or multiple friend request or similar project
+9. Search feature or any other similar feature
+10. any game or effect or project which uses everything

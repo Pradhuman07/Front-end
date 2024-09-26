@@ -1,0 +1,13 @@
+div ke andr jo bhi element bnaoge wo uske ooper dikhega(overlay)
+eg:-
+
+diva{
+    divb{
+        divc{
+
+        }
+    }
+}
+also diva ko jo bhi ht,wdth doge wo as reference with screen hogi
+but divb ko jo bhi ht,wdth doge wo as reference with diva hogi na ki whole screen
+and divc ko jo ht,wdth doge wo as reference with divb hogi na ki diva

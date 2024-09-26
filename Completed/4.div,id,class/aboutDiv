@@ -1,0 +1,7 @@
+div{}
+#div{}
+.div{} all are different
+
+div ka use only 2:-
+     i)When you want to create a rectangle.......by default color is white and heigth is zero
+    ii)When you want to group separate elements
