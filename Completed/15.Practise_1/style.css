@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    background-color: #e7e7e7;
+}
+
+img{
+    height: 50%;
+    /* width automatically adjusted */
+    position: absolute;     
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%,-50%);
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#one{
+    left: 25%;
+}
+#two{
+    left: 50%;
+}
+#three{
+    left: 75%;
+}
+
+img:hover{
+    height: 60%;
+    /* yaha pr agr transition effect lgaoge to sirf hover==>mouse jb uspe ayega tb kaam krega..but jaise hi mouse htega to transition off.. */
+}

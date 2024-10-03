@@ -1,0 +1,10 @@
+remember color means the color of the text if any present in div etc
+in order to check things like position,size etc, give background color to the div 
+
+Note:- submit tag font me hota tha aur wo input tag hota tha aur waha value attribute me likhte th..But yaha button tag hota h na ki submit aur yaha direct likhte h
+
+
+btw div ki koi ht koi width nhi hoti aur na hi uska color white hota h
+div ki heigth width uske andr ke content ke hisab se form hoti h aur uska color transparent hota h
+      :- ye hmne text div se dekha...usko background color deke dkho...texts na dikhe to transparent krdena
+                       

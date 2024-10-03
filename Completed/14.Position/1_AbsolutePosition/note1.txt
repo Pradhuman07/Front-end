@@ -1,0 +1,18 @@
+Position Properties==>Top,bottom,left,right,z-index...Ye 5 properties only activates when you give position to the div(any position like absolute,relative..etc..except static position)...kyoki ye position properties h to pehle position property likhna pdegi kyuki unhe tbhi pata chlega ki top se 50% krna h but absolute way me ya relative way me
+...Yhi reason h ki bina absolute ke tum text div ko centralize nhi kr parhe th
+
+
+                #Traffic light wla example yad rkho
+
+                    teen car h...signal red h...
+
+                      car 3 -> car 2 -> car 1 ||
+
+car 2 ko position absolute dedi to wo ooper uth jyegi to car 3 aage aa jyegi
+
+                                car 2
+                                car 3 -> car 1
+
+but hme screen ooper se dikhti h to hme car 2 dikhegi aur car 3 uske peeche chup jyegi..
+
+test krne ke liye car 2 ka color transparent krdo...car 3 dikhne lgegi 

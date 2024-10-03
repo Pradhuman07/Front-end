@@ -1,0 +1,22 @@
+3 div...ek ke neeche ek 
+
+car1 
+car2 
+car3
+
+car 1 ko position absolute dedi..to wo ooper hogyi to jgh bngyi to car 2 aage aagyi aur wo car 1 ke neeche aagyi aur chup gyi...(But kyuki hm ooper se dkhte h to hme bss car 1 dikhegi..but tum agr uska color transparent kroge to tumhe car 2 dikh jyegi uske neeche)
+
+ab car 2 ko bhi position absolute dedi...to ab wo car 1 ke bhi ooper aajyegi to car 2 dikhegi car 1 chup jyegi
+ab car 3 ko bhi dedi to wo car 2 ke bhi ooper..
+                                                to it is like car 1 is ooper aur  uske bhi ooper car 2 aur uske bhi ooper car 1.. 
+                                                to hme dikhegi sirf car 3 but ukse hi neeche car 2 h aur uske neeche car 1
+
+                             car 3 -> car 2 -> car1 ||
+
+                                               car 3
+                                               car 2
+                                               car 1 
+                                                    ||
+
+Is chiz ka soln is :- z-index ====> "jis bhi div ka z-index sbse jyada wo sbse ooper dikhegi"
+               Reason:- z-index mtlb z-axis==> screen se hmari trf ka distance..jiska sbse jyada wo screen se utta ooper to whi dikhega baki sb uske peeche chup jyega
