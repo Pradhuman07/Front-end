@@ -1,0 +1,7 @@
+Hye is below hello..but jb hello ke aage jgh h to hye ko uske aage lao na neeche kyun laarhe...Soln==>Display flex 
+
+Note:- 
+
+1.Display flex childs ke parent (parent div) ko dete h
+2.Left to right -> main axis -> justify-content
+3.Top to bottom -> cross axis -> align items

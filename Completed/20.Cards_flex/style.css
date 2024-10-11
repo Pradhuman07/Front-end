@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%; 
+    width: 100%;
+    background-color: grey;
+}
+
+.card{
+    height: 160px;
+    width: 280px;
+    background-color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;   /*will not centralize the card along the cross axis if you do not give ht=100%...bcoz by default every div has ht=ht of content inside..that means ht(cards)=ht(card)*/
+    height: 100%;
+    background-color: red;
+}
+
+/*You have done bullshit here..In order to just bring one card at centre,you occupied the whole screen*/
+
+/*Now what you will do,when you create something you will give position absolute to it..many things many position absolute...and using position absolute is a bad practise...One position absolute = pain in ass..*/
+
+/*Soln-> main div ko display flex dedo (and justfiy content align items)
+
+Another problem-> ooper wle soln se ek card to center aajyega but... when you will create multiple cards they will be ek ke neeche ek bcoz div takes full wdth to space not left after them therefore by default every div will be below the above div
+
+Soln-> ab multiple cards h hi to put them into one parent div named cards and now give it display flex....Point to be noted here we have just given display flex to the parent div and not ht,wdth=100% so we have not occupied the whole screen this time...also note the ht,wdth of parent div here will be that of content inside it/

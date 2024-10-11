@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Now Display;
+    font-size: 18px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    /* height: 100px; */   /* isliye htai kyoki now we will want ki iski ht should = content inside it(h,p,a) so that we should not be worry about extra space or text getting outside the card*/
+    width: 250px;
+    background-color: #fff;
+    
+    border-radius: 20px;
+    padding: 15px;   /*andr kaam krti h*/
+}
+
+.cards{
+    /* background-color: red; */
+    display: flex; /* isko comment out krke dekho problem smjh ayegi  */
+    gap: 40px;
+    justify-content: start; /*will not work now bcoz by default ht=content ht hoti h aut wdth full hoti h pr here ht=wdth=content inside it = div inside it*/
+}
+
+.card p{
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.card a{
+    color: royalblue;
+    text-decoration: none;
+    margin-top: 10px;    /*anker tag pe kam nhi krti ye...2 soln-> 1st) p ko margin bottom dedo*/
+}

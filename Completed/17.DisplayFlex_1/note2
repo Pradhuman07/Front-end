@@ -1,0 +1,9 @@
+Very first thing to do is to create main div and give it full width full ht in css
+
+by default har div ki width is full and ht = ht of content inside
+
+deveb.co
+
+position absolute se website responsive nhi hopati
+isliye hm display flex use krte h
+

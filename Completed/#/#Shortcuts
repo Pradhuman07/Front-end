@@ -13,3 +13,6 @@ shift + up/down to move line
 
 alt+d to disable cursor tab
 alt+e to enable cursor tab
+
+ctrl + shift + f = new folder
+ctrl + shift + n = new file

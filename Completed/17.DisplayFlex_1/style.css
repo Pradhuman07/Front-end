@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* wont work if you dont give ht=100% since by default div ki ht = content ht*/
+    height: 100%;
+    gap: 20px;
+}
