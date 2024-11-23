@@ -17,4 +17,13 @@ alt+e to enable cursor tab
 ctrl + shift + f = new folder
 ctrl + shift + n = new file
 
-alt + 7 for buller point
+alt + 7/6 for bullet point
+
+ctrl+p - select the current line
+
+ctrl+alt+s - keyboard shortcuts
+
+==Keyboard Disfunction
+
+home <-> ctrl + end 
+shift + home <-> shift + (ctrl+end)
