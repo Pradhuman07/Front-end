@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.bulb{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 100%;
+    border: 1px whitesmoke solid;
+}
+
+.wire{
+    height: 300px;
+    width: 1px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.switchh{
+    margin-left: 70px;
+    padding: 5px 18px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px white solid;
+    background-color: rgb(243, 24, 24);
+    color: rgb(245, 245, 35);
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
