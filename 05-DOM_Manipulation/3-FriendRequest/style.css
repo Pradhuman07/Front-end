@@ -38,24 +38,22 @@ img{
     transform: translate(-50%,0);
     margin-top: 35px;
     overflow: hidden;
-    transition: all ease 0.2s;
+    transition: all ease 0.4s;
 }
 
 h1{
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    margin-left: 50%;
-    transform: translate(-50%,0%); 
+    /* margin-left: 50%;
+    transform: translate(-50%,0%);  */
     color: #e21212b4;
     font-weight: 600;
     font-size: 35px;
-    transition: all ease 0.5s;
+    text-align: center;
 
 }
 
 button{
-    background-color: hsla(120, 100%, 25%, 0.706);
+    background-color: #00800081;
     color: white;
     font-size: 20px;
     font-weight: 550;
