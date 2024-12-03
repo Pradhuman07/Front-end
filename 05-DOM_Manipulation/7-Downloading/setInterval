@@ -1,0 +1,2 @@
+setTimeout = delay
+setInterval = controlled loop
