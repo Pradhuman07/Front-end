@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+img{
+    height: 400px;
+    border-radius: 12px;
+    width: 308px;       /*Only give either ht aur wdth so that the other can get auto otherwise it creates problem ... here we gave wdth bcoz of img1*/
+}
+
+button{
+    padding: 12px;
+    font-size: larger;
+    border-radius: 8px;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.95;
+}
