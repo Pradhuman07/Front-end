@@ -102,3 +102,5 @@ users.forEach(function(elem){
 
 var main = document.querySelector('.main')
 main.innerHTML = cardss
+
+// #NOTE:--- single and double quotes are limited to single-line strings therefore we uses backticks in foreach loop while adding multiple lines of html code
