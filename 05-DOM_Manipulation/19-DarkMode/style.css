@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.5s;
+    background-color: rgb(165, 214, 245);
+}
+
+h1{
+    font-size: 120px;
+    color: rgb(15, 24, 51);
+}
+i{
+    font-size: 35px;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    cursor: pointer;
+}
+
+i:active{
+    scale: 0.98;
+}
+
+.ri-moon-fill:active{
+    rotate: 180deg;
+    transition: all linear 0.2s;
+}
+
+.ri-sun-fill:active{
+    rotate: -180deg;
+    transition: all linear 0.8s;
+}
+
+#light{
+    background-color: rgb(165, 214, 245);
+    h1{
+        color: rgb(15, 24, 51);
+    }
+    i{
+        color: black;
+    }
+}
+
+#dark{
+    background-color: rgb(3, 22, 33);
+    h1{
+        color: rgb(155, 143, 143);
+    }
+    i{
+        color: white;
+    }
+}

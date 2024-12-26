@@ -1,0 +1,42 @@
+			"FONTS"
+
+-serif:-
+		==> voyage,oggg,Times new roman 
+		==> inke corners nukile hote h 
+		==> premium brands only 
+
+-sans serif:-
+		==> gilroy,helvetica,poppins,montserrat
+		==> corners are rectangular 
+		==> normal website
+
+-display:-
+		==> bold,massy,attraction creator , aade tede   
+		==> monument(senserif bhi h kindof) , nebula , bourbon
+		
+-script/handwritten:-
+		==> like autograph(script) , handwritten
+		==> dancing script
+
+-monospace:-
+		==> Type-writer fonts
+		==> monospace (eg hi h)
+
+
+		
+			"COLOR PALLETS"
+
+-Primary,Secondary,Ternary (Black,white,    Green(shery),blue nd green (fb) )
+-brand archetype (iconicfox.com ...must visit) 
+
+
+			"Designing trends"
+
+-neumorphism (google it..images)
+-glassmorphism
+-3D design 
+-Retro design
+-Colorful gradients : [gradient -> lightblue to royalblue]
+
+
+			"Figma"

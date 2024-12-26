@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(to right top,purple, rgb(213, 27, 27),purple);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    height: 500px;
+    width: 330px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.storiyan{
+    height: 86px;
+    width: 100%;
+    border-bottom: 1px solid #888;
+    padding: 8px;    /*86-70 = 16/2 = 8px .. isse story div automatically beech me aajaega (vertically)...aajau baaju ki padding kuch bhi de skte ho */
+
+    white-space: nowrap;        /*main point-1*/
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.story{
+    display: inline-block;      /*mainpoint-2*/
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* overflow: hidden; ... gradient bna rhe isiliye hta diya isko ..aur ab padding dege , bg dege ..*/
+    background: linear-gradient(45deg,red , #6a11cb);
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: bottom;
+    cursor: pointer;
+}
+
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+
+.full{
+    height: 100%;
+    width: 100%;
+    /* background-image: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+
+    padding: 15px 15px;
+}
+
+.full .progress{
+    height: 4px;
+    width: 100%;
+    background-color: #888;
+    border-radius: 50px;
+}
+
+.full .progress .growth{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    border-radius: 50px;
+}
