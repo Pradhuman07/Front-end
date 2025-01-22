@@ -1,0 +1,2 @@
+range of math.floor is 0 to 1 ... multiply it with 255 , range become 0*255 t0 1*255 
+to 255 means 255 will never come so * with 256 

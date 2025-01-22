@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.saved{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 130px;
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.184);
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.col{
+    height: 35px;
+    width: 35px;
+    background-color: red;
+}
