@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin thin-good-font{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1{
+    @include thin-good-font;
+}
+
+h3{
+    @include thin-good-font;
+}

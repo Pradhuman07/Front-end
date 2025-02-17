@@ -10,8 +10,8 @@ html,body{
 }
 
 .box{
-    height: 30vw;
-    width: 30vw;
-    /* width: 30vmax; */
+    height: 900px;
+    /* width: 30vw; */
+    width: 50vmax;
     background-color: darkgoldenrod;
 }

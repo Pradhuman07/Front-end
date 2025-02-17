@@ -1,0 +1,23 @@
+Units:-
+
+
+I] Absolute :- px,cm,mm etc
+II] Relative :- % , vh , vw , (vmax,vmin) , em , rem 
+
+1) px :- fixed ... depends on device to device ... for eg , in laptop there are many pixels so 1 px size will be very small ..while in mobile there are less pixels so 1 px size will be large as compared to that on laptops
+
+2) % :- depends on parent element 
+
+3) vh/vw :- depends on screen's height and width  [viewport ht/ viewport width]
+
+vh,vw are also not good for making the websites as the viewport ht of laptop < viewport width of laptop but in mobile viewport ht > viewport width
+
+4) vmax/vmin :- depends on maximum or minimum viewport 
+        • for laptops , vmax = vw , vmin = vh
+        • for mobiles , vmax = vh , vmin = vw
+
+5) em , rem :- 
+
+6) media queries :- for changing scripts at certain hts/widths .. used for writing codes for application that need to be on different devices
+
+7) mixin :- scss :- for writing repetitive code

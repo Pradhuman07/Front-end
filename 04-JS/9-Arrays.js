@@ -149,13 +149,48 @@
 // console.log(ans);   //[1,2,3,4,5]
 
 // ---------------------------------------------------------
-                    //  splice()
+                    //  splice() and slice()
 
-// let arr = [15,12,14,3,65,85] 
+//In JavaScript, splice() and slice() are methods used to manipulate arrays, but they work differently:
 
-// arr.splice(2,3);
+                            //1.splice() 
 
-// console.log(arr);    //[15,12,85]
+// (Modifies the Original Array)
+// Used to add, remove, or replace elements in an array.
+// Modifies the original array.
+// array.splice(startIndex, deleteCount, item1, item2, ...);
+// startIndex: Position to start modifying.
+// deleteCount: Number of elements to remove.
+// item1, item2, ...: Elements to add at startIndex.
+
+//Example: Removing Elements
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(2, 2); // Removes 2 elements starting from index 2
+// console.log(arr); // Output: [1, 2, 5]
+
+//Example: Adding Elements
+// let arr = [1, 2, 5];
+// arr.splice(2, 0, 3, 4); // Adds 3 and 4 at index 2
+// console.log(arr); // Output: [1, 2, 3, 4, 5]
+
+
+                    // 2. slice() 
+
+// (Does NOT Modify the Original Array)
+// Used to extract a portion of an array.
+// Does not modify the original array (returns a new array).
+
+// array.slice(startIndex, endIndex);
+// startIndex: Starting position (inclusive).
+// endIndex: Ending position (exclusive).
+
+// Example: Extracting a Subarray
+
+// let arr = [1, 2, 3, 4, 5];
+// let newArr = arr.slice(1, 4); // Extracts elements from index 1 to 3
+// console.log(newArr); // Output: [2, 3, 4]
+// console.log(arr); // Original array remains unchanged: [1, 2, 3, 4, 5]
+
 
 // ---------------------------------------------------------
                     //  reduce() 
